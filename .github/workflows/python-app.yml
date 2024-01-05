@@ -18,7 +18,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: 도커허브 계정/github-actions-app
+        image: yoonsanfwef/github-actions-app
         tags: v3, latest
         registry: docker.io
         username: yoonsanfwef
